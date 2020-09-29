@@ -3,7 +3,7 @@ version: '3.7'
 services:
   movies:
     build: ./app
-    command: python manage.py runserver 192.168.50.72:8000
+    command: python3 manage.py runserver 0.0.0.0:8000
     volumes:
       - ./app/:/usr/src/app/
     ports:

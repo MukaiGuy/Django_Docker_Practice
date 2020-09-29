@@ -1,6 +1,7 @@
 FROM python:3.8.2-alpine
 
 # set work directory
+RUN mkdir -p /usr/src/app
 WORKDIR /usr/src/app
 
 # set environment variables
